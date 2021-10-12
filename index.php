@@ -24,7 +24,7 @@
                     echo '<div class="album-box">';
                     echo '<img src="' . $album['poster'] . '">';
                     echo '<h2>' . $album['title'] . '</h2>';
-                    echo '<div>' . 
+                    echo '<div class="box-info">' . 
                             '<span>' . $album['author'] . '</span>' .
                             '<span>' . $album['year'] . '</span>' .
                          '</div>';
@@ -35,5 +35,3 @@
     </main>
 </body>
 </html>
-
-<img src="" alt="">
