@@ -14,7 +14,9 @@
 </head>
 <body>
     <header>
-
+        <div id="logo">
+            <h1>PHP DISCHI</h1>
+        </div>
     </header>
     
     <main>
