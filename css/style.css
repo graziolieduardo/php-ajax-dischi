@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common  */
+
+/* header  */
+
+header {
+    height: 70px;
+    background-color: #2E3A46;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 70px);
+    background-color: #1E2D3B;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container .album-box {
+    width: calc((100% / 5) - 20px);
+    background-color: #2E3A46;
+    margin: 20px 10px;
+}
+.container .album-box img {
+    width: 100%;
+}
