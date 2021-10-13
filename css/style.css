@@ -14,9 +14,16 @@ body {
     height: 100vh;
 }
 
+#root {
+    height: 100%;
+}
+
 /* header  */
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
     background-color: #2E3A46;
 }
@@ -43,6 +50,10 @@ h1 {
     0 5px 10px rgba(0,0,0,.25),
     0 10px 10px rgba(0,0,0,.2),
     0 20px 20px rgba(0,0,0,.15);
+}
+
+select {
+    margin-right: 30px;
 }
 
 /* main  */
