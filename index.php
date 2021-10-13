@@ -26,7 +26,7 @@
 
             <div>
                 <select name="genreSelect" id="genreSelect" @change="filteredList" v-model="selectValue">
-                    <option value="all">All</option>
+                    <option value="">All</option>
                     <option v-for="genre in genres" :value="genre"> {{ genre }} </option>
                 </select>
             </div>

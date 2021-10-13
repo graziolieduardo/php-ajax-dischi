@@ -6,11 +6,11 @@ const app = new Vue({
         albums: [],
         filteredAlbums: [],
         genres: [],
-        selectValue: ''
+        selectValue: '' 
     },
     methods: {
         filteredList() {
-            if (this.selectValue == 'all') {
+            if (this.selectValue == '') {
                 return this.filteredAlbums = this.albums;
             }
             this.filteredAlbums = this.albums.filter((element) => {
@@ -30,7 +30,7 @@ const app = new Vue({
                         this.genres.push(this.albums[i].genre);
                     }
                 }
+                this.filteredList();
             });
-        this.filteredList();
     }
 }); 
